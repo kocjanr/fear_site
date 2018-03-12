@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<title>FEAR Offical web site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<body>
+    <div class="background w3-display-container w3-text-white">
+        <!-- Navbar -->
+        <div class="w3-top">    
+            <div class="w3-bar w3-black w3-card w3-left-align w3-large w3-hide-small w3-hide-medium">
+                <a href="./index.html" class="w3-left w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red"><img width="80" src="./assets/HeaderHOME.png"></a>
+                <a href="./news.html" class="w3-left w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red"><img width="80" src="./assets/HeaderNEWS.png"></a>
+                <a href="./shows.html" class="w3-left w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red"><img width="80" src="./assets/HeaderSHOWS.png"></a>
+                <div class="dropdown">
+                    <button class="dropbtn"><img width="90" src="./assets/HeaderHISTORY.png"></button>
+                    <div class="dropdown-content">
+                        <a href="./albums.html">Albums</a>
+                        <a href="./lineups.html">Lineups</a>
+                        <a href="./biography.html">Biography</a>
+                    </div>
+                </div>
+                <a href="./contact.html" class="w3-left w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red"><img width="80" src="./assets/HeaderCONTACT.png"></a>
+                <a href="./contact.html" class="w3-left w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red"><img width="90" src="./assets/HeaderCONTACT.png"></a>
+                <a href="https://www.atomageindustries.com/collections/fear"  target="blank" class="w3-left w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red"><img width="80" src="./assets/HeaderMERCH.png"></a>
+                
+                <div class="w3-bar-item w3-right w3-text-red w3-hide-small">
+                    <a href="https://www.facebook.com/FEARtheband/" target="blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                    <a href="https://www.instagram.com/fearleevingofficial/" target="blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+                    <a href="https://twitter.com/fearleeving" target="blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+                    <a href="https://open.spotify.com/artist/0hPU1czS0JdstuT8VRtBPS" target="blank"><i class="fa fa-music w3-hover-opacity"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-text-white textContent">
+            <div class="w3-image">
+                <img src="./assets/photo_band2.jpg" width="400">
+            </div>
+        <div>Fear is a hardcore punk band from Los Angeles, California, formed in 1977. The band is credited for helping to shape the sound and style of Californian hardcore punk.[1] The group started out as part of the early California punk rock scene, and gained national prominence after an infamous 1981 performance on Saturday Night Live.
+        Frontman Lee Ving has been the band's only constant member. Since its formation, the band has gone through various lineup changes, and at one point, featured Flea of the Red Hot Chili Peppers on bass. 
+    </div>
+        </div>
+
+    </div>
+
+<script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+    
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+            }
+        }
+        }
+    }
+</script>
+
+</body> 
+</html>

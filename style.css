@@ -1,0 +1,81 @@
+body {
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+h1{
+    font-family: "Raleway", sans-serif;
+    color: white;
+
+}
+body, html {
+    height: 100%;
+    color: black;
+}
+th,td{
+    color: black;
+}
+.background_logo {
+    background-image: url('./assets/Asphaltweb_logo.png');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.background {
+    background-image: url('./assets/Asphaltweb.png');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content{
+    padding-top: 5%;
+    padding-left: 1%;
+}
+.dropbtn {
+    background-color: #000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:red;
+}
+
+.textContent{
+    padding-top: 5%;
+}
+
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
